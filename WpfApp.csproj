@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Hamburger.png" />
+    <None Remove="history.jpg" />
+    <None Remove="history.png" />
+    <None Remove="keepontop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hamburger.png" />
+    <Resource Include="history.jpg" />
+    <Resource Include="history.png" />
+    <Resource Include="keepontop.png" />
+  </ItemGroup>
+
+</Project>
